@@ -4,7 +4,7 @@ namespace TaskApi.Controllers;
 
 [ApiController]
 [Route("api/[controller]")]
-public class TaskController : ControllerBase {
+public class TasksController : ControllerBase {
     private static List<TaskItem> _tasks = new() {
         new TaskItem {
             Id = 1,
