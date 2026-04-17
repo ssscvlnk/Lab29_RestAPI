@@ -51,3 +51,15 @@ Content-Type: application/json
 
 ###
 DELETE {{baseUrl}}/api/tasks/4
+
+###
+GET {{baseUrl}}/api/tasks/search?query=ASP
+
+###
+GET {{baseUrl}}/api/tasks/priority/High
+
+###
+GET {{baseUrl}}/api/tasks/stats
+
+###
+GET {{baseUrl}}/api/tasks/sorted?by=priority&desc=false
